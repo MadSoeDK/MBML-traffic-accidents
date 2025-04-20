@@ -8,8 +8,8 @@ in pkgs.mkShell {
     (pkgs.python3.withPackages (python-pkgs: [
       # select Python packages here
     python-pkgs.numpy
-        #python-pkgs.jax
-        #python-pkgs.jaxlib
+    python-pkgs.pandas
+    python-pkgs.geopandas
     python-pkgs.scipy
     python-pkgs.seaborn
     python-pkgs.matplotlib
