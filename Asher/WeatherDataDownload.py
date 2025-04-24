@@ -316,8 +316,9 @@ def get_data (*, latitude, longitude, timeres, pars):
 # Call it
 
 #replace this with an upload of CSV file of spatial coordinates
-Coordinates = np.array([[55.786275,12.524242],
-                        [55.707722,12.562119]])
+#Coordinates = np.array([[55.786275,12.524242],                         [55.707722,12.562119]])
+
+Coordinates = np.array([[55.786275,12.524242]])
 
 CoordN, _ = Coordinates.shape
 
@@ -331,6 +332,7 @@ for n in range(CoordN):
     [p, m] = get_data (latitude=LATITUDE, longitude=LONGITUDE, timeres=TIMERES,
                    pars=PARS)
 
+    Export_Path = "/Users/asherkite/Desktop/School/Courses/MBML/MBML_Project/MBML_github/MBML-traffic-accidents/Asher/Exports"
     # Sorting
     p.sort_index (inplace=True)
 
