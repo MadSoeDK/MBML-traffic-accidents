@@ -1,0 +1,10 @@
+numpy
+pyro-ppl
+matplotlib
+pandas
+jupyter
+ipykernel
+seaborn
+scipy
+scikit-learn
+geopandas
