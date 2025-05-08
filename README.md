@@ -7,7 +7,7 @@ docker build -t mbml-project:latest .
 
 To run the container
 ```
-docker run -d \                                                                                                                  10:17:23
+docker run -d \
   -p 8888:8888 \
   -v "$(pwd)":/home/jovyan/ \
   --name mbml-project \
