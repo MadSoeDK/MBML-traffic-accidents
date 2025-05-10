@@ -2,3 +2,5 @@
 .ipython
 .jupyter
 .local
+FullWeather.csv
+merged.csv
