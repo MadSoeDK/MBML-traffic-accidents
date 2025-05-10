@@ -13,3 +13,6 @@ docker run -d \
   --name mbml-project \
   mbml-project:latest
 ```
+
+To Access Weather Data File:
+https://drive.google.com/drive/folders/1O53nYJzmj81SUVuEigHnER-VIJH3YPTq?usp=sharing
